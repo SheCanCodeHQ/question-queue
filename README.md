@@ -21,9 +21,12 @@ This is my first project using redux, so feedback is welcome.
 
 You need `npm` and `git`.
 ```
-git clone
+git clone git@github.com:SheCanCodeHQ/question-queue.git
+cd question-queue
+npm install
 npm start
 ```
+Open your browser to http://localhost:3000/
 
 ## Folder Structure
 
