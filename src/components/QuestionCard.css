@@ -1,0 +1,33 @@
+.QuestionCard {
+  color: #333;
+}
+
+.QuestionCard a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.Question {
+  font-weight: bold;
+}
+
+ul.Answers {
+  list-style: none;
+  margin: 0;
+}
+
+.Answer {
+  display: block;
+  line-height: 40px;
+  border-radius: 5px;
+  margin: 10px 40px;
+  background-color: white;
+}
+
+.Answer:nth-child(2) {
+  background-color: grey;
+}
+
+.Skip {
+  color: green;
+}

@@ -1,0 +1,50 @@
+.Widget {
+  color: #333;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Widget a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.WidgetButton {
+  background-color: #FFBD4A;
+  display: block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  border-radius: 20px;
+}
+
+.MaximizedWidget {
+  position: fixed;
+  top: 20vh;
+  left: 20vw;
+  min-width: 60vw;
+  background-color: #FFBD4A;
+  border-radius: 20px;
+}
+
+.TopBar {
+  height: 20px;
+  padding: 5px;
+}
+
+.Minimize {
+  display: block;
+  height: 40px;
+  width: 40px;
+  background: 4px no-repeat;
+  background-size: 30px;
+  float: right;
+  text-align: right;
+}
+
+.WidgetWrapper {
+  padding: 5px 40px 40px;
+}
